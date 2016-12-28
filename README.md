@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ethjs/docs/master/assets/ethjs-shape.png" width="250" />
+<img src="https://raw.githubusercontent.com/ethjs/docs/master/assets/ethjs-image.png" width="250" />
 
 ## Welcome
 
