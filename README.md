@@ -8,39 +8,39 @@ Welcome to `ethjs`, a simple set of modules and examples for the Ethereum ecosys
 
 ## Modules
     
-  Querying/RPC
-    - [ethjs-query](http://github.com/ethjs/ethjs-query) - a querying layer for the RPC layer with payload formatting
-    - [etjs-rpc](http://github.com/ethjs/ethjs-rpc) - a querying layer for the RPC layer without formatting
+### Querying/RPC
+ - [ethjs-query](http://github.com/ethjs/ethjs-query) - a querying layer for the RPC layer with payload formatting
+ - [etjs-rpc](http://github.com/ethjs/ethjs-rpc) - a querying layer for the RPC layer without formatting
 
-  Providers
-    - [ethjs-provider-signer](http://github.com/ethjs/ethjs-provider-signer) - sign raw transactions at the provider level
-    - [ethjs-provider-http](http://github.com/ethjs/ethjs-provider-http) - a basic http provider
+### Providers
+ - [ethjs-provider-signer](http://github.com/ethjs/ethjs-provider-signer) - sign raw transactions at the provider level
+ - [ethjs-provider-http](http://github.com/ethjs/ethjs-provider-http) - a basic http provider
 
-  Unit Conversion
-    - [ethjs-unit](http://github.com/ethjs/ethjs-unit) - convert between units such as `ether` and `wei`
+### Unit Conversion
+ - [ethjs-unit](http://github.com/ethjs/ethjs-unit) - convert between units such as `ether` and `wei`
     
-  Formatting
-    - [ethjs-format](http://github.com/ethjs/ethjs-format) - payload formatter for the Ethereum RPC layer
-    - [ethjs-schema](http://github.com/ethjs/ethjs-schema) - the entire Ethereum RPC schema as a JSON object
-    - [ethjs-abi](http://github.com/ethjs/ethjs-abi) - Solidity transaction formatting
+### Formatting
+ - [ethjs-format](http://github.com/ethjs/ethjs-format) - payload formatter for the Ethereum RPC layer
+ - [ethjs-schema](http://github.com/ethjs/ethjs-schema) - the entire Ethereum RPC schema as a JSON object
+ - [ethjs-abi](http://github.com/ethjs/ethjs-abi) - Solidity transaction formatting
     
-  Filtering/Events
-    - [ethjs-filter](http://github.com/ethjs/ethjs-filter) - filter and event handling for Ethereum RPC filters
+### Filtering/Events
+ - [ethjs-filter](http://github.com/ethjs/ethjs-filter) - filter and event handling for Ethereum RPC filters
 
-  Contract Handling
-    - [ethjs-contract](http://github.com/ethjs/ethjs-contract) - a contract object abstraction
+### Contract Handling
+ - [ethjs-contract](http://github.com/ethjs/ethjs-contract) - a contract object abstraction
 
-  Transaction Signing
-    - [ethjs-signer](http://github.com/ethjs/ethjs-signer) - a raw transaction signer
+### Transaction Signing
+ - [ethjs-signer](http://github.com/ethjs/ethjs-signer) - a raw transaction signer
   
-  Accounts
-    - [ethjs-account](http://github.com/ethjs/ethjs-account) - a module for creating and managing Ethereum accounts
+### Accounts
+ - [ethjs-account](http://github.com/ethjs/ethjs-account) - a module for creating and managing Ethereum accounts
 
-  Utils
-    - [ethjs-util](http://github.com/ethjs/ethjs-util) - simple utils mainly for handling strings and hex values
+### Utils
+ - [ethjs-util](http://github.com/ethjs/ethjs-util) - simple utils mainly for handling strings and hex values
     
-  Interfaces
-    - [ethjs](http://github.com/ethjs/ethjs) - a simple interface of various modules
+### Interfaces
+ - [ethjs](http://github.com/ethjs/ethjs) - a simple interface of various modules
 
 ## Experimental
 
