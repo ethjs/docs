@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/ethjs/docs/master/assets/ethjs-shape.png" width="250" />
+
 ## Welcome
 
 Welcome to `ethjs`, a simple set of modules and examples for the Ethereum ecosystem.
