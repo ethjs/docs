@@ -9,8 +9,8 @@ Welcome to `ethjs`, a simple set of modules and examples for the Ethereum ecosys
 ## Modules
     
 #### Querying/RPC
- - [ethjs-query](http://github.com/ethjs/ethjs-query) - a querying layer for the RPC layer with payload formatting
- - [etjs-rpc](http://github.com/ethjs/ethjs-rpc) - a querying layer for the RPC layer without formatting
+ - [ethjs-query](http://github.com/ethjs/ethjs-query) - a module for querying the RPC layer with payload formatting
+ - [etjs-rpc](http://github.com/ethjs/ethjs-rpc) - a module for querying the RPC layer without formatting
 
 #### Providers
  - [ethjs-provider-signer](http://github.com/ethjs/ethjs-provider-signer) - sign raw transactions at the provider level
