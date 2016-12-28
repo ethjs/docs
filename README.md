@@ -33,11 +33,13 @@ However, there are some critical differences:
 
 Note, all `ethjs` modules may eventually be merged into the `ethereumjs` Github org. We are currently in discussions to find the best path forward for these modules.
 
-## Relationship with `ethereumjs`
+## Relationship with [`ethereumjs`](https://github.com/ethereumjs)
 
 `ethjs` is a set of modules that are part of the EthereumJS community. We dedicate all these modules to the javascript developers of the Ethereum community in the hopes that they might be useful for dApps, apps and developers.
 
 While we have no official affiliation with the Ethereum foundation, we will be working closely with the Ethereum community.
+
+Please visit, [github.com/ethereumjs](https://github.com/ethereumjs) for more.
 
 ## Contributing
 
@@ -54,10 +56,10 @@ You'll find more detailed information on using `ethjs` and tailoring it to your 
 ## Module Guide
 
 Here is a map of the `ethjs` modules with a brief explanation of each.
-    
+
 #### Interfaces
  - [ethjs](http://github.com/ethjs/ethjs) - a simple interface of various modules
-    
+
 #### Querying/RPC
  - [ethjs-query](http://github.com/ethjs/ethjs-query) - a module for querying the RPC layer with payload formatting
  - [etjs-rpc](http://github.com/ethjs/ethjs-rpc) - a module for querying the RPC layer without formatting
@@ -68,12 +70,12 @@ Here is a map of the `ethjs` modules with a brief explanation of each.
 
 #### Unit Conversion
  - [ethjs-unit](http://github.com/ethjs/ethjs-unit) - convert between units such as `ether` and `wei`
-    
+
 #### Formatting
  - [ethjs-format](http://github.com/ethjs/ethjs-format) - payload formatter for the Ethereum RPC layer
  - [ethjs-schema](http://github.com/ethjs/ethjs-schema) - the entire Ethereum RPC schema as a JSON object
  - [ethjs-abi](http://github.com/ethjs/ethjs-abi) - Solidity transaction formatting
-    
+
 #### Filtering/Events
  - [ethjs-filter](http://github.com/ethjs/ethjs-filter) - filter and event handling for Ethereum RPC filters
 
@@ -82,7 +84,7 @@ Here is a map of the `ethjs` modules with a brief explanation of each.
 
 #### Transaction Signing
  - [ethjs-signer](http://github.com/ethjs/ethjs-signer) - a raw transaction signer
-  
+
 #### Accounts
  - [ethjs-account](http://github.com/ethjs/ethjs-account) - a module for creating and managing Ethereum accounts
 
