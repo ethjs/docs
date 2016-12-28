@@ -4,7 +4,7 @@ Welcome to `ethjs`, a simple set of modules and examples for the Ethereum ecosys
 
 ## About
 
-`ethjs` is a set of small, highly composable modules and interfaces for the Ethereum ecosystem.
+`ethjs` is a set of tiny composable modules and interfaces for the Ethereum ecosystem.
 
 ## Modules
     
