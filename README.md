@@ -14,20 +14,22 @@ Note, all `ethjs` modules are highly experimental. If you want to bring `ethjs` 
 
 We are aiming for **early January 2017** for production use.
 
-## Differences with Web3.js
+## Web3.js
 
 We love `web3.js`! [`web3.js`](https://github.com/ethereum/web3.js) has brought us a first pass at a library for building Ethereum dApps and apps. We hope to work closely with the developers and maintainers of web3 to foster better design, share knowledge and give alternative design insight.
 
-However, there are some critical differences:
+However, there are some critical differences between `ethjs` and `web3.js`:
   - `ethjs` has no support for decimal numbers [read more](https://github.com/ethjs/ethjs/blob/master/docs/user-guide.md#big-numbersnumber-handling)
-  - `ethjs` uses `BN.js`, not `BigNumber.js`
-  - `ethjs` uses `Buffer.js` for most of its handling of hex/utf-8 conversion
-  - `ethjs` is highly optimized for the browser (about 30kb smaller than web3.js minified)
-  - `ethjs` has a module first approach, small seperate isolated modules which make up the complex whole
-  - `ethjs` is ES6+ first, published in ES5 compliance via `babel`
-  - `ethjs` has a 100% build uptime/+99% coverage policy across all repos
-  - `ethjs` is designed to be highly configurable at every level of each module
-  - `ethjs` has an enforced UNIX philosophy design policy
+  - `ethjs` uses **BN.js**, not `BigNumber.js` [read more](https://github.com/ethjs/ethjs/blob/master/docs/user-guide.md#big-numbersnumber-handling)
+  - `ethjs` is **async only** for all RPC/data packet methods
+  - `ethjs` uses `Buffer.js` for handling of hex/utf-8 conversion
+  - `ethjs` is highly optimized for the browser (about **30kb** smaller than web3.js minified)
+  - `ethjs` has a module first approach, small isolated modules which make up the complex whole
+  - `ethjs` is **ES6+ first**, published with **ES5** standard via `babel`
+  - `ethjs` has a **100% build uptime/+99% coverage** policy across all repos
+  - `ethjs` is designed with **high configurability** at every level of each module
+  - `ethjs` has a fail loudly, early (preferably within async) policy
+  - `ethjs` has an enforced [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) design policy
 
 ## Heads Up
 
